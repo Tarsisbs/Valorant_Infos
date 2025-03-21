@@ -6,7 +6,7 @@ body{
 
 .navbar{
     background-color: rgb(33, 32, 41);
-    height: 70px;
+    height: 40px;
     padding: 15px;
     display: flex;
     justify-content: space-around;
@@ -32,4 +32,32 @@ body{
 
 .logo{
     margin-left: -150px;
+}
+
+.main_container{
+    display: flex;
+}
+
+.img_jett{
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.background_img{
+    background-color: rgb(211, 22, 53);
+    width: 500px;
+    border-radius: 150px;
+}
+
+.background_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(211, 22, 53);
+    width: 900px;
+    height: 400px;
+    margin-right: -500px;
+    border-radius: 80px;
 }
